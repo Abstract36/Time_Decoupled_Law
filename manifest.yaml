@@ -1,0 +1,35 @@
+apiVersion: abstract36.science/v1
+kind: RepositoryCatalog
+metadata:
+  name: abstract36-meta
+  version: 0.1.0
+  description: "Unified Scientific Repository for Temporal Sovereignty Research"
+spec:
+  projects:
+    - name: Temporal-Sovereignty
+      tag: philosophy
+      description: "Formalization of time and its irreversible consequences in distributed systems."
+      last_updated: "4 days ago"
+      priority: High
+      
+    - name: abs-type-theory
+      tag: theory
+      description: "Intuitionistic Type Theory and related formal systems (Agda, Lean)."
+      last_updated: "4 days ago"
+      dependencies: []
+      
+    - name: TASM-Chain-Core-Kernel
+      tag: core
+      language: Rust
+      description: "Core Kernel of the blockchain system."
+      last_updated: "4 days ago"
+      
+    - name: Time_Decoupled_Law
+      tag: protocol
+      description: "Implementation of the Time Decoupled Law protocol on Solana."
+      last_updated: "4 days ago"
+      
+    - name: privacy-execution-layer
+      tag: privacy
+      description: "Privacy Execution Layer v3.0 (zk-SNARKs) on Solana."
+      last_updated: "5 days ago"
